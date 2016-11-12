@@ -39,7 +39,7 @@ static const char os_launch_hook[] = {
 	0x05, 0x0b, 0xcf, 0xfc, 0x05, 0x05, 0x99, 0x70, 0x05, 0x05, 0x99, 0x7e,
 };
 
-static const char sd_path[] = "/vol/sdcard";
+static const char sd_path[] = "/vol/sdcard/wiiu/boot";
 
 static unsigned int __attribute__((noinline)) disable_mmu(void)
 {
